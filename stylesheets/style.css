@@ -1,0 +1,52 @@
+html {
+	
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+
+.container {
+		
+}
+
+
+header {
+	background-color: dimgrey;
+}
+
+p {
+    background-color: dimgrey;
+    color: white;
+}
+
+nav {
+	color: white;
+}
+
+nav a:hover{
+	color: red;
+}
+footer {
+	color: white; 
+	background-color: dimgrey;
+}
+
+.contact a:hover {
+	color: red;
+}
+.items .About_Me {
+	color: white;
+	background-color: dimgrey;
+}
+.items .projects {
+	color: white;
+	background-color: dimgrey;
+}
+.items .projects a:hover {
+	color: red;
+
+}

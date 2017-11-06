@@ -1,0 +1,74 @@
+
+
+
+header,
+footer {
+    grid-column: 1 / -1;
+    padding: 1rem
+}
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+    nav ul li {
+        margin-right: 15px;
+    }
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+display: grid;
+ grid-column: 1 / -1;
+    padding: 1rem;
+}
+
+.banner {
+    display: flex;
+    grid-column: 1 / -1;
+    width: 100%;
+}
+   
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1rem;
+    width: 100%;
+ }
+
+.items {
+    display: flex;
+}
+    .items .About_Me {
+        margin-right: 1rem;
+    }
+    .items p:second-child {
+        display: grid;
+    }
+
+    .items p:last-child {
+        margin-right: 0;
+    }
